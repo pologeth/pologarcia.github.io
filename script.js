@@ -2,7 +2,7 @@
 const participantes = [
     { nombre: "Adria Farrando", puntos: 0 },
     { nombre: "Albert Rovira", puntos: 0 },
-    { nombre: "Alex Burgos", puntos: 10 },
+    { nombre: "Alex Burgos", puntos: 0 },
     { nombre: "Alex Marin", puntos: 0 },
     { nombre: "Andre Garcia", puntos: 0 },
     { nombre: "Anna de Sousa", puntos: 0 }, // Cambia el puntaje de Anna
@@ -11,7 +11,7 @@ const participantes = [
     { nombre: "Cristian Toledano", puntos: 0 },
     { nombre: "Dana Mowszet", puntos: 0 },
     { nombre: "Eric Ribert", puntos: 0 },
-    { nombre: "Francis Quinn", puntos: 5 },
+    { nombre: "Francis Quinn", puntos: 0 },
     { nombre: "Gael Benet", puntos: 0 },
     { nombre: "Gerar Garces", puntos: 0 },
     { nombre: "Hanna Matas", puntos: 0 },
