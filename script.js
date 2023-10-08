@@ -20,6 +20,7 @@ const participantes = [
     { nombre: "Jan Benito", puntos: 0 },
     { nombre: "Jan Fornieles", puntos: 0 },
     { nombre: "Jan Cavalle", puntos: 0 },
+    { nombre: "Joanma Garcia", puntos: 0 },
     { nombre: "Lola Torra", puntos: 0 },
     { nombre: "Majda Yelul", puntos: 0 },
     { nombre: "Marina Duytshe", puntos: 0 },
