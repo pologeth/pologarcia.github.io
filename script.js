@@ -14,6 +14,7 @@ const participantes = [
     { nombre: "Francis Quinn", puntos: 0 },
     { nombre: "Gael Benet", puntos: 0 },
     { nombre: "Gerard Garces", puntos: 0 },
+    { nombre: "Guim Marques", puntos: 0 },
     { nombre: "Hanna Matas", puntos: 0 },
     { nombre: "Jack Daniels", puntos: 0 },
     { nombre: "Jan Benito", puntos: 0 },
