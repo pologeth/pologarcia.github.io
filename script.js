@@ -5,7 +5,7 @@ const participantes = [
     { nombre: "Alex Burgos", puntos: 2 },
     { nombre: "Alex Marin", puntos: 3 },
     { nombre: "Andrea Garcia", puntos: 1 },
-    { nombre: "Anna de Sousa", puntos: 1 }, // Cambia el puntaje de Anna
+    { nombre: "Anna de Sousa", puntos: 1 }, 
     { nombre: "Claudia Alcober", puntos: 3 },
     { nombre: "Clara Torner", puntos: 2 },
     { nombre: "Cristian Toledano", puntos: 1 },
@@ -34,19 +34,19 @@ const participantes = [
     { nombre: "Olivia Hausman", puntos: 1 },
     { nombre: "Oriol Cliville", puntos: 3 },
     { nombre: "Pau Gomez", puntos: 1 },
-    { nombre: "Pere Mayol", puntos: 1 }, // Cambia el puntaje de Pere
+    { nombre: "Pere Mayol", puntos: 1 }, 
     { nombre: "Pol Arroyo", puntos: 3 },
     { nombre: "Pol Sanmarti", puntos: 1 },
     { nombre: "Sara Homs", puntos: 3 }
 ];
 
-// Función para actualizar la tabla con los datos de los participantes y detectar cambios en los puntajes
+
 function actualizarTabla() {
-    // Ordena la lista de participantes por puntos de mayor a menor
+   
     participantes.sort((a, b) => b.puntos - a.puntos);
 
     const tabla = document.getElementById("tablaPuntuaciones");
-    tabla.innerHTML = ""; // Borra el contenido actual de la tabla
+    tabla.innerHTML = ""; 
 
     participantes.forEach((participante, index) => {
         const fila = document.createElement("tr");
@@ -56,20 +56,19 @@ function actualizarTabla() {
             <td>${participante.puntos}</td>
         `;
 
-        // Establece colores específicos para el primero, segundo y tercero
         if (index === 0) {
-            fila.style.backgroundColor = "Green"; // Primero (verde)
+            fila.style.backgroundColor = "Green"; 
         } else if (index === 1) {
-            fila.style.backgroundColor = "Blue"; // Segundo (azul)
+            fila.style.backgroundColor = "Blue"; 
         } else if (index === 2) {
-            fila.style.backgroundColor = "Orange"; // Tercero (naranja)
+            fila.style.backgroundColor = "Orange"; 
         }
 
         tabla.appendChild(fila);
     });
 }
 
-// Llama a la función para cargar la tabla al cargar la página
+
 actualizarTabla();
 
 
