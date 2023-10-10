@@ -28,9 +28,9 @@ table th {
     color: #fff;
 }
 
-/* Elimina la alineación central de las celdas de nombre */
+
 table td {
-    padding-left: 10px; /* Espacio a la izquierda de los nombres */
+    padding-left: 10px; 
 }
 
-/* Resto de estilos CSS ... */
+
