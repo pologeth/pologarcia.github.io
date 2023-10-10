@@ -1,4 +1,4 @@
-// Datos de los participantes con sus nombres y puntajes
+
 const participantes = [
     { nombre: "Adria Farrando", puntos: 3 },
     { nombre: "Albert Rovira", puntos: 4 },
