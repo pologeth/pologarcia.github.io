@@ -24,7 +24,7 @@ const participantes = [
     { nombre: "Marina Duytshe", puntos: 3 },
     { nombre: "Mar Macià", puntos: 9 },
     { nombre: "Marcos Marin", puntos: 6 },
-    { nombre: "Marta Bisbal", puntos: 6 },
+    { nombre: "Marta Bisbal", puntos: 9 },
     { nombre: "Marta Fernandez", puntos: 6 },
     { nombre: "Miquel Barja", puntos: 11 },
     { nombre: "Natalia Perez", puntos: 8 },
